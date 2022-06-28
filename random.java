@@ -1,5 +1,5 @@
 // 数の表示とサイコロ
-public class Main {
+public class random {
 	public static void main(String[] args) {
 	    double rand = Math.random() * 100 +1;
 		System.out.println(rand);
