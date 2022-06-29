@@ -1,7 +1,7 @@
 // 値段を計算する
 
 // ランダムでりんごの値段や個数が変わるプログラム
-public class Main {
+public class enzanshi2 {
 	public static void main(String[] args) {
 		int apple_price = (int)(Math.random() * 3 + 1) * 100; // リンゴの単価
 		int apple_num = (int)(Math.random()* 10 + 1); // リンゴを買う数
