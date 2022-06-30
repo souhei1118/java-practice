@@ -4,5 +4,10 @@ public class if1 {
 		int number =((int)(Math.random() * 3 + 1)) * 100;
 		System.out.println("あなたの得点は" + number + "ポイントです");
 		// ここにif文を追加する
+		if (number == 300) {
+		    System.out.println("おめでとう！");
+		} else {
+		    System.out.println("ざんねん！");
+		}
 	}
 }
