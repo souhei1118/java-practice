@@ -5,7 +5,7 @@ public class Main {
 		System.out.println("あなたの順位は" + number + "位です");
 		if (number == 1) {
 			System.out.println("おめでとう！");
-		} elseif (number == 2) {
+		} else if (number == 2) {
 			System.out.println("あと少し！");
 		} else {
 			System.out.println("よくがんばったね");
