@@ -9,7 +9,7 @@
 // さらに、1から2のサイコロをふって、
 // 1：追加攻撃として、10のダメージを与えたと表示。
 // 2：追加攻撃に失敗したと表示。
-public class Main {
+public class rpg {
 	public static void main(String[] args) {
 		int hit = (int)(Math.random() * 10 + 1);
 		if (hit < 6) {
