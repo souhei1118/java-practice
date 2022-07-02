@@ -5,7 +5,7 @@ public class seireki {
 		System.out.print("西暦" + seireki + "年は");
 
 		// 昭和年を計算
-		int showa = 0;
+		int showa = seireki - 1925;
 		System.out.println("昭和" + showa + "年です。");
 	}
 }
