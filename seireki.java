@@ -1,5 +1,5 @@
 // 西暦年から昭和年を求める
-public class Main {
+public class seireki {
 	public static void main(String[] args) {
 		int seireki = (int)(Math.random() * 63 + 1926);
 		System.out.print("西暦" + seireki + "年は");
