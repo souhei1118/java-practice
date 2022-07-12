@@ -1,7 +1,10 @@
 // whileによるループ処理
 public class while1 {
     public static void main(String[] args) {
-        System.out.println("ハローpaizaラーニング");
-        int i = 0
+        int i = 0;
+        while (i < 10) {
+            System.out.println("Hello World!!");
+            i = i + 1;
+        }
     }
 }
